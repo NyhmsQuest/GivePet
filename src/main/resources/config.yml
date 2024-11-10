@@ -1,0 +1,24 @@
+# Time in seconds before a transfer request expires
+transfer_timeout: 30
+
+# List of worlds where pets can't be transferred to
+restricted_worlds:
+  Spawn: "ꜱᴘᴀᴡɴ"
+  resource_world: "ʀᴇꜱᴏᴜʀᴄᴇ ᴡᴏʀʟᴅ"
+  resource_nether: "ʀᴇꜱᴏᴜʀᴄᴇ ɴᴇᴛʜᴇʀ"
+
+# Messages that will be sent to players for different events
+messages:
+  not_a_player: "<#FBA9A9>ᴏɴʟʏ ᴘʟᴀʏᴇʀꜱ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ."
+  reload_permission: "<#FBA9A9>ʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ."
+  reload: "<#B2FBA9>ɢɪᴠᴇᴘᴇᴛ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ ʀᴇʟᴏᴀᴅᴇᴅ."
+  usage: "<#BDB0D0>ᴜꜱᴀɢᴇ: <#A180D0>/givepet <player>"
+  player_not_found: "<#FBA9A9>ᴘʟᴀʏᴇʀ ɴᴏᴛ ꜰᴏᴜɴᴅ."
+  restricted_world: "<#FBA9A9>ʏᴏᴜ ᴄᴀɴ'ᴛ ᴛʀᴀɴꜱꜰᴇʀ ᴀ ᴘᴇᴛ ᴛᴏ ᴘʟᴀʏᴇʀꜱ ɪɴ <#A180D0>%world%<#FBA9A9>."
+  selection_prompt: "<#BDB0D0>ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ʏᴏᴜʀ ᴘᴇᴛ ᴛᴏ ᴛʀᴀɴꜱꜰᴇʀ ɪᴛ ᴛᴏ <#A180D0>%player%<#FBA9A9>.<newline><#BDB0D0>ᴏʀ ᴄᴀɴᴄᴇʟ ᴡɪᴛʜ <click:run_command:'/givepet cancel'><hover:show_text:'<green>ᴄʟɪᴄᴋ ᴛᴏ ʀᴜɴ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.'><white>[</white><color:#FBF69E>/givepet cancel</color:#FBF69E><white>]</white>"
+  success_transfer: "<#B2FBA9>ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛʀᴀɴꜱꜰᴇʀʀᴇᴅ ʏᴏᴜʀ ᴘᴇᴛ ᴛᴏ <#A180D0>%player%<#B2FBA9>."
+  received_pet: "<#B2FBA9>ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴄᴇɪᴠᴇᴅ ᴀ ᴘᴇᴛ ꜰʀᴏᴍ <#A180D0>%player%<#B2FBA9>."
+  transfer_canceled: "<#FBA9A9>ᴘᴇᴛ ᴛʀᴀɴꜱꜰᴇʀ ᴄᴀɴᴄᴇʟᴇᴅ."
+  transfer_timeout: "<#FBA9A9>ʏᴏᴜʀ ᴘᴇᴛ ᴛʀᴀɴꜱꜰᴇʀ ʀᴇǫᴜᴇꜱᴛ ʜᴀꜱ ᴛɪᴍᴇᴅ ᴏᴜᴛ."
+  no_active_transfer: "<#FBA9A9>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴄᴜʀʀᴇɴᴛʟʏ ᴛʀᴀɴꜱꜰᴇʀʀɪɴɢ ᴀ ᴘᴇᴛ."
+  not_your_pet: "<#FBA9A9>ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴘᴇᴛ."

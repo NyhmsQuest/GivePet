@@ -1,0 +1,22 @@
+name: GivePet
+version: '1.0'
+main: net.vanillymc.givePet.GivePet
+api-version: '1.21'
+authors: [ NyhmsQuest ]
+description: Allows players to transfer ownership of pets to other players.
+
+softdepend: [CMI, Essentials, VanishNoPacket]
+
+commands:
+  givepet:
+    description: Transfer ownership of a pet to another player.
+    usage: /givepet <player> or /givepet cancel
+    permission: givepet.use
+
+permissions:
+  givepet.use:
+    description: Allows the player to use /givepet and /acceptpet
+    default: true
+  givepet.reload:
+    description: Allows the player to reload the GivePet configuration
+    default: op
